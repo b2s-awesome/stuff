@@ -1,0 +1,857 @@
+                                                                                                             
+◄ 0s ◎ cd ~/Minecraft/BMC5-Server                              □ Minecraft/BMC5-Server java ∪ v21.0.13  02:48
+       mv mods/connector-2.0.0-beta.8+1.21.1-full.jar mod-quarantine/
+       ./run.sh nogui
+[02:48:55.839] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.234, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui] 
+[02:48:55.840] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS 
+[02:48:55.841] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.60-1-lts 
+[02:48:55.893] [main/WARN] [loading.FMLConfig/]: ****************************** Found dependency overrides ****************************** 
+[02:48:55.893] [main/WARN] [loading.FMLConfig/]: Dependency overrides for mod 'citresewn': softening dependency constraints against 'connector' 
+[02:48:55.894] [main/WARN] [loading.FMLConfig/]: **************************************************************************************** 
+[02:48:56.039] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver 
+[02:48:56.074] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/kitty/Minecraft/BMC5-Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER 
+[02:48:56.080] [main/WARN] [loading.FMLConfig/]: ****************************** Found dependency overrides ****************************** 
+[02:48:56.080] [main/WARN] [loading.FMLConfig/]: Dependency overrides for mod 'citresewn': softening dependency constraints against 'connector' 
+[02:48:56.081] [main/WARN] [loading.FMLConfig/]: **************************************************************************************** 
+[02:48:56.086] [main/WARN] [CrashAssistantJarInJarHelper/]: launchTarget: forgeserver. Crash Assistant is client only mod. Mod will do nothing! 
+[02:48:56.241] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.234:server] 
+[02:48:56.255] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.234/neoforge-21.1.234-universal.jar]], reader: mod manifest] 
+[02:48:56.265] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accessories-neoforge-1.1.0-beta.43+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.268] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accessories_cclayer-9.3.1-beta.28+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.272] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "accessorify-1.4.4+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.274] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "adorabuild-structures-2.10.1-neoforge-1.21.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.275] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "advancednetherite-neoforge-2.2.1-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.277] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "adventuredungeons-neoforge-1.21-1.3.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.279] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aeroblender-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.281] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether-1.21.1-1.5.8-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.283] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether_enhanced_extinguishing-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.284] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether_protect_your_moa-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.285] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AetherVillages-1.21.1-1.0.8-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.288] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alltheleaks-0.1.17-beta+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.289] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "almanac-1.21.x-neoforge-1.0.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.291] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alternate_current-mc1.21-1.9.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.292] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "amendments-1.21-1.2.24-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.294] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "another_furniture-neoforge-4.0.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.296] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.297] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "athena-neoforge-1.21-4.0.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.298] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AureljPaintings-1.0.4-1.21.x-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.301] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AutochefsDelight-1.21.1-NeoForge-2.0.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.303] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "azurelib-neo-1.21.1-3.0.20.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.305] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "backpacked-neoforge-1.21.1-3.0.0-beta.10.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.306] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BadOptimizations-2.2.2-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.307] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.46.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.308] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BarteringStation-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.310] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bcc-21.1.3+mc1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.311] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bedrockoid-0.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.312] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BetterGrassify-1.6.1+neoforge.1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.313] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BetterModsButton-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.314] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BHMenu-NeoForge-1.21-2.4.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.315] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "biomemusic-1.21-3.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.316] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "blended-compat-1.1.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.317] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "boatiview-neoforge-0.0.6-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.318] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bookshelf-neoforge-1.21.1-21.1.64.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.319] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caelus-neoforge-7.0.1+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.320] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-neoforge-1.21.1-2.2.2.11.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.322] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cerulean-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.323] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cherishedworlds-neoforge-10.1.1+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.336] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chipped-neoforge-1.21.1-4.0.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.338] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunkactivitytracker-neoforge-1.0.1-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.339] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunksending-1.21-2.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.341] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "clientcrafting-1.21-1.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.342] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ClimateRivers-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.343] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.344] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.345] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-8.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.346] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "comforts-neoforge-9.0.4+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.350] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configured-neoforge-1.21.1-2.6.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.351] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "ConfiguredDefaults-v21.1.3-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.352] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectivity-1.21.1-7.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.353] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ConnectorExtras-1.12.1+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.355] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "continuity-3.0.0+1.21.neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.357] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Corgilib-NeoForge-1.21.1-5.0.0.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.358] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "coroutil-neoforge-1.21.0-1.3.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.359] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cristellib-neoforge-1.2.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.360] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21-2.9.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.362] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CutThrough-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.365] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "deep_aether-1.21.1-1.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.367] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "deeperdarker-neoforge-1.21.1-1.3.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.368] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DeleteWorldsToTrash-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.369] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "despawntweaks-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.372] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.373] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.375] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "distraction_free_recipes-neoforge-1.2.1-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.376] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-ancient-city-overhaul-v2 [NeoForge].jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.377] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-swamp-hut-overhaul-v2 [NeoForge].jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.378] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-woodland-mansion-replacement-v1.2 [NeoForge].jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.379] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "does_it_tick-neoforge-1.1.4-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.380] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "doubledoors-1.21.1-7.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.381] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Dragon Mounts Remastered-1.21.1-1.7.9.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.382] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dummmmmmy-1.21-2.0.8-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.384] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DungeonsArise-1.21.x-2.1.64-release.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.385] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DyedFlames-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.387] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "earlybedtime-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.389] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.390] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "easydisenchanting-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.392] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyMagic-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.393] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "enchdesc-neoforge-1.21.1-21.1.7.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.394] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "endersdelight-neoforge-1.21.1-1.1.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.396] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.397] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EternalNether-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.399] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EuphoriaPatcher-1.6.4-r5.5.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.400] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "explorations-neoforge-1.21.1-1.6.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.402] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Explorify v1.6.2 f10-48.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.403] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FallingTree-1.21.1-1.21.1.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "farmers-cutting-oh-the-biomes-weve-gone-1.21.1-2.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.407] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.2.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.421] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersStructures-1.0.1-1.21.1_neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.422] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "farsight-1.21-3.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.423] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fast-ip-ping-v1.0.5-mc1.21.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.424] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastasyncworldsave-1.21-2.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.425] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FastItemFrames-v21.1.3-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.426] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastpaintings-1.21-1.2.15-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.427] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Feature-Recycler-neoforge-2.0.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.433] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.434] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.3-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.435] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.436] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "formations-1.0.3-neoforge-mc1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.438] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "formationsnether-1.0.5-mc1.21+.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.440] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "formationsoverworld-1.0.4-mc1.21+.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.441] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.9.6(1).jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.442] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.9.6.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.444] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "friendsandfoes-neoforge-4.0.5+mc1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.446] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-filter-system-neoforge-21.1.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.447] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2101.1.13.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.449] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-quests-neoforge-2101.1.9.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.450] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-teams-neoforge-2101.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.452] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-xmod-compat-neoforge-21.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.453] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fzzy_config-0.7.0+1.21+neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.455] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gardens-of-the-dead-neoforge-5.0.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.457] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.7.5.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.458] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Geophilic v3.4.1 f15-71.mod.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.459] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.460] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.462] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "golem_spawn_fix-1.0.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.463] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gpumemleakfix-1.21-1.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.468] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "handcrafted-neoforge-1.21.1-4.0.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.469] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Hearths v1.0.3 f12-71.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.470] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Highlighter-1.21-neoforge-1.1.11.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.471] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Iceberg-1.21.1-neoforge-1.3.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.472] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.473] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersivearmorhud-neoforge-1.0.1-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.474] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersivelanterns-neoforge-1.0.6-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.475] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersivemessages-neoforge-1.0.18-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.475] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersivetips-neoforge-1.0.2-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.476] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "improved_village_placement_1.0.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.477] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.478] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jamlib-neoforge-1.3.5+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.479] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.21.2.313.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.480] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justenoughbreeding-neoforge-1.21-1.21.1-1.6.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.480] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "JustEnoughProfessions-neoforge-1.21.1-4.0.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.481] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justzoom_neoforge_2.1.0_MC_1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.482] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Kiwi-1.21.1-NeoForge-15.5.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.483] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kleeslabs-neoforge-1.21.1-21.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.483] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.484] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.8.0-all.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.486] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "L_Ender's Cataclysm-2.66-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.487] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LeaveMyBarsAlone-v21.1.2-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.487] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LeavesBeGone-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.489] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lionfishapi-2.6.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.490] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithium-neoforge-0.15.0+mc1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.491] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-neoforge-1.21.1-1.4.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.491] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lmft-1.0.4+1.21-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.492] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "logbegone-neoforge-1.21.1-1.0.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.493] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LongNBTKiller-NeoForge-1.21.3-1.0.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.493] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegration_wda-1.6.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.494] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations-1.21.1-4.6.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.495] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_formations-1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.495] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_lootintegrations_bygonepillage-1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.496] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_moog-1.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.497] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lootintegrations_yungs-1.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.498] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lukis-crazy-chambers-1.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.498] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "luna_minecraft-neoforge-5.3.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.499] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MagnumTorch-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.499] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "melody_neoforge_1.0.10_MC_1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.500] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "memorysettings-1.21-5.9.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.501] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mes-1.3.5-1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.501] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "miningspeedtooltips-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.502] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "misctweaks-1.1.2+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.502] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixintracereforged-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.503] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mns-1.0.8-1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.504] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.23.1+mc1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.507] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modpack-update-checker-1.21.1-neoforge-0.15.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.508] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21-2.18.18-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.509] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "morevillagers-re-1.21.1-neoforge-5.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.509] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MouseTweaks-neoforge-mc1.21-2.26.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.510] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mvs-4.3.0-1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.511] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MyNethersDelight-1.21.1-1.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.512] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaNny-1.21.1-1.0.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.512] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.0.3-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.512] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Necronomicon-NeoForge-1.6.0+1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.513] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Neruina-2.3.1-beta.1-neoforge+1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.541] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NetherChested-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.542] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "netherportalfix-neoforge-1.21.1-21.1.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.542] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.543] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.544] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "notenoughanimations-neoforge-1.9.3-mc1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.544] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "oceansdelight-neoforge-1.0.3-1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.547] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Oh-The-Biomes-Weve-Gone-NeoForge-2.4.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.548] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.14.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.548] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "opacpvp-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.549] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "open-parties-and-claims-neoforge-1.21.1-0.24.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.549] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OverflowingBars-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.550] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.551] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "packanalytics-neoforge-1.0.5-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.552] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "packetfixer-neoforge-2.1.0-1.21-to-1.21.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.552] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "particle_core-0.2.6+1.21+neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.553] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.21-88-NEOFORGE.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.553] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Paxi-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.554] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.555] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "piglinproliferation-1.21.1-2.0.11.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.556] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Ping-Wheel-1.10.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.557] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "polymorph-neoforge-1.0.10+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.557] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "prickle-neoforge-1.21.1-21.1.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.558] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ProPlacer-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.559] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.36-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.559] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Quest-Kill-Task-neoforge-0.3.0+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.560] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Raided-1.21.1-0.1.4.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.560] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "randomenchantfix-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.561] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "recipeessentials-1.21-4.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.561] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "redirected-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.564] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "repurposed_structures-7.5.15+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.564] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "repurposed_structures_farmers_delight_compat_v7.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.564] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "repurposed_structures_friends_and_foes_compat_v8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.565] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.566] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.566] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.567] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "revampedwolf-1.21.1-13.0.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.567] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rightclickharvest-neoforge-4.5.3+1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.568] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sawmill-1.21-1.5.18-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.568] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ScalableLux-0.1.0+beta.2+neoforge.1a07a27-all.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.569] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.569] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.570] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "serverbrowser-neoforge-1.4.0-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.570] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simple_snowy_fix-neoforge-2.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.571] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.572] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SkeletonAIFix-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.572] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "skinlayers3d-neoforge-1.7.5-mc1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.573] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smarterfarmers-1.21-2.2.2-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.573] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smoothchunk-1.21-4.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.574] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SnowRealMagic-1.21.1-NeoForge-12.1.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.574] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "snowundertrees-1.21.1-1.4.10.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.575] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.575] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodiumextras-neoforge-1.0.8-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.576] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodiumleafculling-neoforge-1.0.1-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.576] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sound-physics-remastered-neoforge-1.21.1-1.4.12.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.577] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spark-1.10.124-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.578] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sparsestructures-neoforge-1.21.1-3.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.579] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Stoneworks-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.579] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Stony Cliffs FML v1.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.580] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Structory_1.21.x_v1.3.10.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.581] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Structory_Towers_1.21.x_v1.0.11.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.581] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "structure_layout_optimizer-neoforge-1.0.10.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.582] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "structureessentials-1.21.1-4.7.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.584] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.21-3.1.8-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.585] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "takesapillage-neoforge-mc1.21.1-1.0.6.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.585] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.586] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tfthreadsafetyaddon-0.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.587] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "toms_storage-1.21-2.2.0.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.587] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "toofast-1.21.0-0.4.3.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.588] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TradingPost-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.589] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightdelight-3.0.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.592] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.7.3196-universal.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.593] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "txnilib-neoforge-1.0.24-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.594] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "variantsandventures-neoforge-mc1.21.1-1.0.13.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.594] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veinmining-neoforge-5.0.0-beta.2+1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.595] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "villagernames-1.21.1-8.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.595] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "villagesandpillages-neoforge-mc1.21.1-1.0.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.596] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "visuality-forge-2.0.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.596] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "VisualWorkbench-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.597] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "watut-neoforge-1.21.0-1.2.7.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.598] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.19.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.598] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wetland_whimsy-1.2.1-1.21.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.599] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Xaeros_Minimap_25.2.6_NeoForge_1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.600] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "XaerosWorldMap_1.39.9_NeoForge_1.21.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.601] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xptome-1.21.1-2.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.601] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.602] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "youre-in-grave-danger-neoforge-2.0.11.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.603] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsApi-1.21.1-NeoForge-5.1.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.603] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.604] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.604] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.605] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.606] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.606] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.607] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.607] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.608] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBridges-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.608] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar" [locator: {mods folder locator at /home/kitty/Minecraft/BMC5-Server/mods}, reader: mod manifest] 
+[02:48:56.618] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "crash_assistant-neoforge.jar" [parent: , locator: jarinjar, reader: mod manifest] 
+[02:48:57.404] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api. Using Mod File: /home/kitty/Minecraft/BMC5-Server/mods/forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar 
+[02:48:57.405] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: accessories. Using Mod File: /home/kitty/Minecraft/BMC5-Server/mods/accessories-neoforge-1.1.0-beta.43+1.21.1.jar 
+[02:48:57.405] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: terrablender. Using Mod File: /home/kitty/Minecraft/BMC5-Server/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar 
+[02:48:57.405] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: aeroblender. Using Mod File: /home/kitty/Minecraft/BMC5-Server/mods/aeroblender-1.21.1-1.0.0-neoforge.jar 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 113 dependencies adding them to mods collection 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.46.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+9c40919e19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.0.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "junixsocket-native-common-2.6.2.jar" [parent: SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-api-v1-11.1.1+57cdfa8219.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kubejs-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modmenu-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-fluids-v1-3.1.6+857185bc19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "github-api-1.318.jar" [parent: Neruina-2.3.1-beta.1-neoforge+1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "netty-0.1.4.jar" [parent: owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "endec-0.1.8.jar" [parent: owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v1-2.1.4+7f945d5b19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.11+e9036fd419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-command-api-v2-2.2.28+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v2-2.11.0+87e5848019.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-attachment-api-v1-1.4.3+58235da019.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jctools-core-4.0.5.jar" [parent: farsight-1.21-3.8.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforgedatapackextensions-neoforge-21.1.2.jar" [parent: DyedFlames-v21.1.1-1.21.1-NeoForge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rei-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "biolith-neoforge-3.0.1.jar" [parent: wetland_whimsy-1.2.1-1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "httpclient5-5.3.1.jar" [parent: Neruina-2.3.1-beta.1-neoforge+1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-api-v1-2.0.25+4228281319.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-content-registries-v0-8.0.18+0a0c14ff19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.8.1.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2modularblocks-3.0.0.jar" [parent: twilightdelight-3.0.5.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "terrablender-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "diagonalblocks-neoforge-21.1.2.jar" [parent: DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-lookup-api-v1-1.6.70+c21168c319.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "junixsocket-common-2.6.2.jar" [parent: SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "limitlesscontainers-neoforge-21.1.0.jar" [parent: NetherChested-v21.1.0-1.21.1-NeoForge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-20230227.jar" [parent: SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-annotations-2.17.0.jar" [parent: Neruina-2.3.1-beta.1-neoforge+1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.0+1.21+neoforge.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-entity-events-v1-1.7.0+1af6e62419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cumulus_menus-1.21.1-2.0.5-neoforge.jar" [parent: aether-1.21.1-1.5.8-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.2-beta.4.jar" [parent: mixinsquared-neoforge-0.3.2-beta.4.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v2-3.0.15+a3ee712d19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.1.1.jar" [parent: supplementaries-1.21-3.1.8-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: particle_core-0.2.6+1.21+neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v3-1.0.3+333dfad919.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nitrogen_internals-1.21.1-1.1.23-neoforge.jar" [parent: aether-1.21.1-1.5.8-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-networking-api-v1-4.3.0+4f690eb619.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.8.1.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: twilightdelight-3.0.5.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-lifecycle-events-v1-2.5.0+a2ee258a19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-client-tags-api-v1-1.1.15+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transfer-api-v1-5.4.2+a25cb45619.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2serial-3.0.9.jar" [parent: twilightdelight-3.0.5.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-0.1.5.jar" [parent: owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar, locator: jarinjar] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.234.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.0.0+986ae77219.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.0.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.405] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "pehkui-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-handler-api-v1-1.3.88+8dbc56dd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-loader-v0-1.3.1+4ea8954419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-v1-5.0.5+077ba95f19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-core-2.17.0.jar" [parent: Neruina-2.3.1-beta.1-neoforge+1.21.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.0+acb05a3919.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.0.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.3.2-beta.4.jar" [parent: alltheleaks-0.1.17-beta+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "DiscordIPC-a8d6631cc9.jar" [parent: SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "httpcore5-5.3.1.jar" [parent: Neruina-2.3.1-beta.1-neoforge+1.21.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "extras-utils-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "energy-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-particles-v1-4.0.2+824f924c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixson-neoforge-v1.3.1.jar" [parent: misctweaks-1.1.2+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "extensibleenums-neoforge-21.1.1.jar" [parent: IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "mixinconstraints-1.0.8.jar" [parent: accessorify-1.4.4+1.21.1.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: jamlib-neoforge-1.3.5+1.21.1.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.1.5.jar" [parent: owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-blockrenderlayer-v1-1.1.52+b089b4bd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-api-v1-1.0.22+a6e994cd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-databind-2.17.0.jar" [parent: Neruina-2.3.1-beta.1-neoforge+1.21.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.8.0.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: comforts-neoforge-9.0.4+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.8.0.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.8.0.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-group-api-v1-4.1.7+e324903319.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-gametest-api-v1-2.0.5+29f188ce19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2core-3.0.7+43.jar" [parent: twilightdelight-3.0.5.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-biome-api-v1-13.0.31+1e62d33c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-registry-sync-v0-5.2.0+867470b919.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-recipe-api-v1-5.0.14+59440bcc19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.7.3196.jar" [parent: twilightforest-1.21.1-4.7.3196-universal.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-object-builder-api-v1-15.2.1+cc242efd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-sound-api-v1-1.0.23+10b84f8419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-message-api-v1-6.0.13+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "emi-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-generation-api-v1-20.2.28+2d91a6db19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "1.21-neo-0.1.2.jar" [parent: modpack-update-checker-1.21.1-neoforge-0.15.4.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.406] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-events-interaction-v0-0.7.13+7b71cc1619.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[02:48:57.410] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		3d-Skin-Layers 1.7.5 (skinlayers3d)
+		Accessories 1.1.0-beta.43+1.21.1 (accessories)
+		Accessorify 1.4.4 (accessorify)
+		AdoraBuild: Structures 2.10.1 (adorabuild_structures)
+		Advanced Netherite 2.2.1 (advancednetherite)
+		AdventureDungeons 1.3.1 (adventuredungeons)
+		AeroBlender 1.0.0 (aeroblender)
+		Aether Villages 1.0.8 (aether_villages)
+		All The Leaks 0.1.17-beta+1.21.1-neoforge (alltheleaks)
+		Almanac 1.0.2 (almanac)
+		Alternate Current 1.9.0 (alternate_current)
+		Amendments 1.21-1.2.24 (amendments)
+		Another Furniture 4.0.0 (another_furniture)
+		Architectury 13.0.8 (architectury)
+		Athena 4.0.1 (athena)
+		Aurelj's Paintings 1.0.4 (aurelj_paintings)
+		Autochef's Delight 2.0.2+neoforge (autochefsdelight)
+		AzureLib 3.0.20 (azurelib)
+		Backpacked 3.0.0-beta.10 (backpacked)
+		BadOptimizations 2.2.2 (badoptimizations)
+		Balm 21.0.46 (balm)
+		Bartering Station 21.1.0 (barteringstation)
+		Bedrockoid 0.1.3 (bedrockoid)
+		Better Compatibility Checker 21.1.3 (bcc)
+		Better Mods Button 21.1.0 (bettermodsbutton)
+		BetterGrassify 1.6.1+neoforge.1.21.1 (bettergrass)
+		BHMenu 2.4.3 (bhmenu)
+		Biolith 3.0.1 (biolith)
+		biomemusic mod 3.5 (biomemusic)
+		Blended Compat 1.1.1 (blended_compat)
+		Boat Item View 0.0.6 (boatiview)
+		Bookshelf 21.1.64 (bookshelf)
+		Caelus API 7.0.1+1.21.1 (caelus)
+		Carry On 2.2.2 (carryon)
+		Cerulean 1.0.0 (cerulean)
+		Cherished Worlds 10.1.1+1.21.1 (cherishedworlds)
+		Chipped 4.0.2 (chipped)
+		Chunk Activity Tracker 1.0.1 (chunkactivitytracker)
+		chunksending mod 2.8 (chunksending)
+		clientcrafting mod 1.8 (clientcrafting)
+		Climate Rivers 21.1.1 (climaterivers)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Clumps 19.0.0.1 (clumps)
+		Collective 8.3 (collective)
+		Comforts 9.0.4+1.21.1 (comforts)
+		conditional mixin 0.6.4 (conditional_mixin)
+		Configured 2.6.0 (configured)
+		Configured Defaults 21.1.3 (configureddefaults)
+		Connectivity Mod 7.1 (connectivity)
+		Connector Extras 1.12.1+1.21.1 (connectorextras)
+		Connector Extras EMI Bridge 1.12.1+1.21.1 (connectorextras_emi_bridge)
+		Connector Extras Energy Bridge 1.12.1+1.21.1 (connectorextras_energy_bridge)
+		Connector Extras JEI Bridge 1.12.1+1.21.1 (connectorextras_jei_bridge)
+		Connector Extras KubeJS Bridge 1.12.1+1.21.1 (connectorextras_kubejs_bridge)
+		Connector Extras ModMenu Bridge 1.12.1+1.21.1 (connectorextras_modmenu_bridge)
+		Connector Extras Pehkui Bridge 1.12.1+1.21.1 (connectorextras_pehkui_bridge)
+		Connector Extras REI Bridge 1.12.1+1.21.1 (connectorextras_rei_bridge)
+		Connector Extras Terrablender Bridge 1.12.1+1.21.1 (connectorextras_terrablender_bridge)
+		Continuity 3.0.0+1.21.neoforge (continuity)
+		CorgiLib 5.0.0.4 (corgilib)
+		CoroUtil 1.21.0-1.3.8 (coroutil)
+		Crash Assistant 1.9.2 (crash_assistant)
+		Cristel Lib 1.2.8 (cristellib)
+		Cumulus 2.0.5 (cumulus_menus)
+		Cupboard mod 2.9 (cupboard)
+		Curios Compatibility Layer 0.beta.28 (cclayer)
+		Cut Through 21.1.0 (cutthrough)
+		Deep Aether 1.1.3 (deep_aether)
+		Deeper and Darker 1.3.5 (deeperdarker)
+		Delete Worlds To Trash 21.1.0 (deleteworldstotrash)
+		Despawn Tweaks 1.0.0 (despawntweaks)
+		Diagonal Blocks 21.1.2 (diagonalblocks)
+		Diagonal Fences 21.1.1 (diagonalfences)
+		Diagonal Walls 21.1.2 (diagonalwalls)
+		Distraction Free Recipes (EMI) 1.2.1 (distraction_free_recipes)
+		Does It Tick? 1.1.4 (does_it_tick)
+		Double Doors 7.0 (doubledoors)
+		Dragon Mounts Remastered 1.7.9 (dmr)
+		Dungeons and Taverns Ancient City Overhaul 1-v2 (mr_dungeons_andtavernsancientcityoverhaul)
+		Dungeons and Taverns Swamp Hut Overhaul 1-v2 (mr_dungeons_andtavernsswamphutoverhaul)
+		Dungeons and Taverns Woodland Mansion Replacement 1-v1.2 (mr_dungeons_andtavernswoodlandmansionreplacement)
+		Dyed Flames 21.1.1 (dyedflames)
+		Early Bedtime 1.0.0 (earlybedtime)
+		Easy Anvils 21.1.0 (easyanvils)
+		Easy Disenchanting 1.0.0 (easydisenchanting)
+		Easy Magic 21.1.0 (easymagic)
+		EnchantmentDescriptions 21.1.7 (enchdesc)
+		Ender's Delight 1.1.0 (endersdelight)
+		Enhanced Extinguishing 1.0.0 (aether_enhanced_extinguishing)
+		EpheroLib 1.2.0 (epherolib)
+		Eternal Nether 21.1.1 (eternalnether)
+		Euphoria Patcher 1.6.4-r5.5.1-neoforge (euphoria_patcher)
+		Explorations+ 1.21.1-1.6.2 (explorations)
+		Explorify 1.6.2 (explorify)
+		Extensible Enums 21.1.1 (extensibleenums)
+		FallingTree 1.21.1.8 (fallingtree)
+		Farmer's Cutting: Oh The Biomes We've Gone 1.21.1-2.1-neoforge (mr_farmers_cuttingohthebiomeswevegone)
+		Farmer's Delight 1.2.8 (farmersdelight)
+		FarmersStructures 1.0.0 (farmers_structures)
+		Farsight mod 3.8 (farsight_view)
+		Fast IP Ping 1.0.5 (fastipping)
+		Fast Item Frames 21.1.3 (fastitemframes)
+		Fast Paintings 1.21-1.2.15 (fastpaintings)
+		fastasyncworldsave mod 2.4 (fastasyncworldsave)
+		Feature Recycler 2.0.0 (featurerecycler)
+		Ferrite Core 7.0.2 (ferritecore)
+		Forge Config API Port 21.1.3 (forgeconfigapiport)
+		Forgified Fabric API 0.115.6+2.1.0+1.21.1 (fabric_api)
+		Forgified Fabric API Base 0.4.42+d1308dedd1 (fabric_api_base)
+		Forgified Fabric API Lookup API (v1) 1.6.70+c21168c319 (fabric_api_lookup_api_v1)
+		Forgified Fabric Biome API (v1) 13.0.31+1e62d33c19 (fabric_biome_api_v1)
+		Forgified Fabric Block API (v1) 1.0.22+a6e994cd19 (fabric_block_api_v1)
+		Forgified Fabric BlockRenderLayer Registration (v1) 1.1.52+b089b4bd19 (fabric_blockrenderlayer_v1)
+		Forgified Fabric BlockView API (v2) 1.0.11+e9036fd419 (fabric_block_view_api_v2)
+		Forgified Fabric Client Tags 1.1.15+e053909619 (fabric_client_tags_api_v1)
+		Forgified Fabric Command API (v2) 2.2.28+36d727be19 (fabric_command_api_v2)
+		Forgified Fabric Content Registries (v0) 8.0.18+0a0c14ff19 (fabric_content_registries_v0)
+		Forgified Fabric Convention Tags 2.1.4+7f945d5b19 (fabric_convention_tags_v1)
+		Forgified Fabric Convention Tags (v2) 2.11.0+87e5848019 (fabric_convention_tags_v2)
+		Forgified Fabric Data Attachment API (v1) 1.4.3+58235da019 (fabric_data_attachment_api_v1)
+		Forgified Fabric Data Generation API (v1) 20.2.28+2d91a6db19 (fabric_data_generation_api_v1)
+		Forgified Fabric Entity Events (v1) 1.7.0+1af6e62419 (fabric_entity_events_v1)
+		Forgified Fabric Events Interaction (v0) 0.7.13+7b71cc1619 (fabric_events_interaction_v0)
+		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
+		Forgified Fabric Game Test API (v1) 2.0.5+29f188ce19 (fabric_gametest_api_v1)
+		Forgified Fabric Item API (v1) 11.1.1+57cdfa8219 (fabric_item_api_v1)
+		Forgified Fabric Item Group API (v1) 4.1.7+e324903319 (fabric_item_group_api_v1)
+		Forgified Fabric Key Binding API (v1) 1.0.47+62cc7ce119 (fabric_key_binding_api_v1)
+		Forgified Fabric Lifecycle Events (v1) 2.5.0+a2ee258a19 (fabric_lifecycle_events_v1)
+		Forgified Fabric Loot API (v2) 3.0.15+a3ee712d19 (fabric_loot_api_v2)
+		Forgified Fabric Loot API (v3) 1.0.3+333dfad919 (fabric_loot_api_v3)
+		Forgified Fabric Message API (v1) 6.0.13+e053909619 (fabric_message_api_v1)
+		Forgified Fabric Model Loading API (v1) 2.0.0+986ae77219 (fabric_model_loading_api_v1)
+		Forgified Fabric Networking API (v1) 4.3.0+4f690eb619 (fabric_networking_api_v1)
+		Forgified Fabric Object Builder API (v1) 15.2.1+cc242efd19 (fabric_object_builder_api_v1)
+		Forgified Fabric Particles (v1) 4.0.2+824f924c19 (fabric_particles_v1)
+		Forgified Fabric Recipe API (v1) 5.0.14+59440bcc19 (fabric_recipe_api_v1)
+		Forgified Fabric Registry Sync (v0) 5.2.0+867470b919 (fabric_registry_sync_v0)
+		Forgified Fabric Renderer - Indigo 1.7.0+acb05a3919 (fabric_renderer_indigo)
+		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering (v1) 5.0.5+077ba95f19 (fabric_rendering_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Forgified Fabric Rendering Fluids (v1) 3.1.6+857185bc19 (fabric_rendering_fluids_v1)
+		Forgified Fabric Resource Conditions API (v1) 4.3.0+5bdd099819 (fabric_resource_conditions_api_v1)
+		Forgified Fabric Resource Loader (v0) 1.3.1+4ea8954419 (fabric_resource_loader_v0)
+		Forgified Fabric Screen API (v1) 2.0.25+4228281319 (fabric_screen_api_v1)
+		Forgified Fabric Screen Handler API (v1) 1.3.88+8dbc56dd19 (fabric_screen_handler_api_v1)
+		Forgified Fabric Sound API (v1) 1.0.23+10b84f8419 (fabric_sound_api_v1)
+		Forgified Fabric Transfer API (v1) 5.4.2+a25cb45619 (fabric_transfer_api_v1)
+		Forgified Fabric Transitive Access Wideners (v1) 6.2.0+6c854b6f19 (fabric_transitive_access_wideners_v1)
+		Formations 1.0.3 (formations)
+		Formations Nether 1.0.5 (formationsnether)
+		Formations Overworld 1.0.4 (formationsoverworld)
+		Framework 0.9.6 (framework)
+		Friends&Foes 4.0.5 (friendsandfoes)
+		FTB Filter System 21.1.0 (ftbfiltersystem)
+		FTB Library 2101.1.13 (ftblibrary)
+		FTB Quests 2101.1.9 (ftbquests)
+		FTB Teams 2101.1.2 (ftbteams)
+		FTB XMod Compat 21.1.3 (ftbxmodcompat)
+		Fzzy Config 0.7.0+1.21+neoforge (fzzy_config)
+		Gardens of the Dead 5.0.1 (gardens_of_the_dead)
+		GeckoLib 4 4.7.5.1 (geckolib)
+		Geophilic 3.4.1 (geophilic)
+		GlitchCore 2.1.0.0 (glitchcore)
+		Goblin Traders 1.11.2 (goblintraders)
+		Golem Spawn Fix 1.0.2 (golem_spawn_fix)
+		Gpu memory leak fix 1.8 (gpumemleakfix)
+		Handcrafted 4.0.3 (handcrafted)
+		Hearths 1.0.3 (hearths)
+		Highlighter 1.1.11 (highlighter)
+		Iceberg 1.3.2 (iceberg)
+		Illager Invasion 21.1.6 (illagerinvasion)
+		Immersive Armor HUD 1.0.1 (immersivearmorhud)
+		Immersive Lanterns 1.0.6 (immersivelanterns)
+		Immersive Messages API 1.0.18 (immersivemessages)
+		Immersive Tips 1.0.1 (immersivetips)
+		Improved Village Placement 1.0.0 (improved_village_placement)
+		It Takes a Pillage Continuation 1.0.6 (takesapillage)
+		Jade 15.10.0+neoforge (jade)
+		JamLib 1.3.5+1.21.1 (jamlib)
+		Just Enough Breeding 1.6.0 (justenoughbreeding)
+		Just Enough Items 19.21.2.313 (jei)
+		Just Enough Professions (JEP) 4.0.4 (justenoughprofessions)
+		Just Zoom 2.1.0 (justzoom)
+		Kiwi Library 15.5.2+neoforge (kiwi)
+		KleeSlabs 21.1.3 (kleeslabs)
+		Konkrete 1.9.9 (konkrete)
+		Kotlin For Forge 5.8.0 (kotlinforforge)
+		KumaAPI 21.0.5 (kuma_api)
+		L2Core 3.0.7+43 (l2core)
+		L_Ender's Cataclysm 2.66-1.21.1 (cataclysm)
+		Leave My Bars Alone 21.1.2 (leavemybarsalone)
+		Leaves Be Gone 21.1.0 (leavesbegone)
+		Limitless Containers 21.1.0 (limitlesscontainers)
+		lionfishapi 2.6 (lionfishapi)
+		Lithium 0.15.0+mc1.21.1 (lithium)
+		Lithostitched 1.4.8 (lithostitched)
+		Load My F***ing Tags 1.0.4+1.21 (lmft)
+		Log Begone 1.0.3 (logbegone)
+		Long NBT Killer 1.0.0 (longnbtkiller)
+		lootintegration_wda mod 1 (lootintegration_wda)
+		Lootintegrations mod 4.6 (lootintegrations)
+		lootintegrations_bygonepillage mod 1 (lootintegrations_bygonepillage)
+		lootintegrations_formations mod 1 (lootintegrations_formations)
+		lootintegrations_moog mod 1 (lootintegrations_moog)
+		lootintegrations_yungs mod 1 (lootintegrations_yungs)
+		Luki's Crazy Chambers 1.0 (mr_lukis_crazychambers)
+		luna 5.3.1 (luna_minecraft)
+		Magnum Torch 21.1.0 (magnumtorch)
+		Melody 1.0.10 (melody)
+		memorysettings mod 5.9 (memorysettings)
+		Minecraft 1.21.1 (minecraft)
+		Mining Speed Tooltips 1.0.0 (miningspeedtooltips)
+		MiscTweaks 1.1.2 (misctweaks)
+		Mixin Trace Reforged 1.0.0 (mixintracereforged)
+		Mixson 1.3.1 (mixson)
+		MmmMmmMmmMmm 1.21-2.0.8 (dummmmmmy)
+		ModernFix 5.23.1+mc1.21.1 (modernfix)
+		Modpack Update Checker 0.15.4 (modpackupdatechecker)
+		Moog's End Structures 1.3.5-1.21 (mes)
+		Moog's Nether Structures 1.0.8-1.21 (mns)
+		Moog's Voyager Structures 4.3.0-1.21 (mvs)
+		Moonlight Lib 1.21-2.18.18 (moonlight)
+		MoreVillagers 5.1.2 (morevillagers)
+		Mouse Tweaks 2.26.1 (mousetweaks)
+		MPUC lavender-md 0.1.2 (mpuc_lavendermd)
+		My Nether's Delight 1.8 (mynethersdelight)
+		NaNny 1.0.1 (nanny)
+		Nature's Compass 1.21.1-3.0.2-neoforge (naturescompass)
+		Necronomicon 1.6.0 (necronomicon)
+		NeoForge 21.1.234 (neoforge)
+		NeoForge Data Pack Extensions 21.1.2 (neoforgedatapackextensions)
+		Neruina 2.3.1-beta.1 (neruina)
+		Nether Chested 21.1.0 (netherchested)
+		NetherPortalFix 21.1.1 (netherportalfix)
+		Nitrogen 1.1.23 (nitrogen_internals)
+		No Chat Reports 1.21.1-v2.9.1 (nochatreports)
+		Noisium 2.3.0+mc1.21-1.21.1 (noisium)
+		NotEnoughAnimations 1.9.3 (notenoughanimations)
+		Ocean's Delight 1.0.3 (oceansdelight)
+		Oh The Biomes We've Gone 2.4.1 (biomeswevegone)
+		Oh The Trees You'll Grow 5.0.14 (ohthetreesyoullgrow)
+		Open Parties and Claims 0.24.2 (openpartiesandclaims)
+		Open Parties PvP Support 1.0.0 (opacpvp)
+		Overflowing Bars 21.1.1 (overflowingbars)
+		oωo 0.12.15.1-beta.3+1.21 (owo)
+		Pack Analytics 1.0.5 (packanalytics)
+		Packet Fixer 2.1.0 (packetfixer)
+		Particle Core 0.2.6+1.21+neoforge (particle_core)
+		Patchouli 1.21-88-NEOFORGE (patchouli)
+		Paxi 1.21.1-NeoForge-5.1.3 (paxi)
+		Pick Up Notifier 21.1.1 (pickupnotifier)
+		Piglin Proliferation 2.0.11 (piglinproliferation)
+		Ping Wheel 1.10.2 (pingwheel)
+		Polymorph 1.0.10+1.21.1 (polymorph)
+		PrickleMC 21.1.8 (prickle)
+		Pro Placer 21.1.0 (proplacer)
+		Protect Your Moa 1.0.0 (aether_protect_your_moa)
+		Puzzles Lib 21.1.36 (puzzleslib)
+		Quest Kill Task 0.3.0+1.21.1 (questkilltask)
+		Raided 0.1.4.2 (raided)
+		Random Enchant Fix 1.0.0 (randomenchantfix)
+		recipeessentials mod 4.0 (recipeessentials)
+		Redirected 1.0.0 (redirected)
+		Repurposed Structures 7.5.15+1.21.1-neoforge (repurposed_structures)
+		Repurposed Structures - Farmer's Delight Compat 7 (repurposed_structures_farmers_delight_compat)
+		Repurposed Structures - Friends & Foes Compat 8 (repurposed_structures_friends_and_foes_compat)
+		Resource Pack Overrides 21.1.0 (resourcepackoverrides)
+		Resourceful Lib 3.0.12 (resourcefullib)
+		Resourcefulconfig 3.0.11 (resourcefulconfig)
+		RevampedWolf 1.21.1-13.0.0 (revampedwolf)
+		Right Click Harvest 4.5.3+1.21.1 (rightclickharvest)
+		ScalableLux 0.1.0+beta.2+neoforge.1a07a27 (scalablelux)
+		Searchables 1.0.2 (searchables)
+		Serene Seasons 10.1.0.3 (sereneseasons)
+		ServerBrowser 1.4.0 (serverbrowser)
+		Simple Discord Rich Presence 87.0.1-build.49+mc1.21 (sdrp)
+		Simple Snowy Fix 2.1.3 (simple_snowy_fix)
+		Skeleton AI Fix 21.1.0 (skeletonaifix)
+		Smarter Farmers 1.21-2.2.2 (smarterfarmers)
+		Smoothchunk mod 4.1 (smoothchunk)
+		Snow Under Trees 1.4.10 (snowundertrees)
+		Snow! Real Magic! 12.1.0+neoforge (snowrealmagic)
+		Sodium Dynamic Lights 1.0.9 (sodiumdynamiclights)
+		Sodium Extras 1.0.7 (sodiumextras)
+		Sodium Leaf Culling 1.0.1 (sodiumleafculling)
+		Sound Physics Remastered 1.21.1-1.4.12 (sound_physics_remastered)
+		spark 1.10.124 (spark)
+		SparseStructures 3.0 (sparsestructures)
+		SpectreLib 0.17.2+1.21 (spectrelib)
+		Stoneworks 21.1.0 (stoneworks)
+		Stony Cliffs Are Cool 1.1.2 (stonycliffs)
+		Structory 1.3.10 (structory)
+		Structory: Towers 1.0.11 (structory_towers)
+		Structure Essentials mod 4.7 (structureessentials)
+		Structure Layout Optimizer 1.0.10 (structure_layout_optimizer)
+		Supplementaries 1.21-3.1.8 (supplementaries)
+		TerraBlender 4.1.0.8 (terrablender)
+		The Aether 1.5.8 (aether)
+		The Twilight Forest 4.7.3196 (twilightforest)
+		Tom's Simple Storage Mod 2.2.0 (toms_storage)
+		Too Fast 0.4.3.5 (toofast)
+		Trading Post 21.1.0 (tradingpost)
+		Twilight Flavors & Delight 3.0.5 (twilightdelight)
+		TwilightForest Thread Safety Addon 0.1.2 (tfthreadsafetyaddon)
+		TxniLib 1.0.24 (txnilib)
+		Universal Sawmill 1.21-1.5.18 (sawmill)
+		Variants&Ventures 1.0.13 (variantsandventures)
+		Vein Mining 5.0.0-beta.2+1.21 (veinmining)
+		Villager Names 8.2 (villagernames)
+		Villages & Pillages 1.0.3 (villagesandpillages)
+		Visual Workbench 21.1.0 (visualworkbench)
+		Visuality: Reforged 2.0.5 (visuality)
+		Waystones 21.1.19 (waystones)
+		Wetland Whimsy 1.2.1-1.21.1 (wetland_whimsy)
+		What Are They Up To 1.21.0-1.2.7 (watut)
+		When Dungeons Arise 2.1.64 (dungeons_arise)
+		Xaero's Minimap 25.2.6 (xaerominimap)
+		Xaero's World Map 1.39.9 (xaeroworldmap)
+		XP Tome 2.4 (xpbook)
+		YetAnotherConfigLib 3.6.6+1.21.1-neoforge (yet_another_config_lib_v3)
+		You're in Grave Danger 2.0.11 (yigd)
+		YUNG's API 1.21.1-NeoForge-5.1.5 (yungsapi)
+		YUNG's Better Dungeons 1.21.1-NeoForge-5.1.4 (betterdungeons)
+		YUNG's Better End Island 1.21.1-NeoForge-3.1.2 (betterendisland)
+		YUNG's Better Jungle Temples 1.21.1-NeoForge-3.1.2 (betterjungletemples)
+		YUNG's Better Mineshafts 1.21.1-NeoForge-5.1.1 (bettermineshafts)
+		YUNG's Better Nether Fortresses 1.21.1-NeoForge-3.1.5 (betterfortresses)
+		YUNG's Better Ocean Monuments 1.21.1-NeoForge-4.1.2 (betteroceanmonuments)
+		YUNG's Better Strongholds 1.21.1-NeoForge-5.1.3 (betterstrongholds)
+		YUNG's Better Witch Huts 1.21.1-NeoForge-4.1.1 (betterwitchhuts)
+		YUNG's Bridges 1.21.1-NeoForge-5.1.1 (yungsbridges)
+		YUNG's Menu Tweaks 1.21.1-NeoForge-2.1.2 (yungsmenutweaks) 
+[02:48:57.545] [main/INFO] [Configured Defaults/]: Applying default files... 
+[02:48:57.557] [main/ERROR] [loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'connector', Requested by: 'continuity', Expected range: ' ', Actual version: '[MISSING]' 
+[02:48:57.773] [main/INFO] [impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader 
+[02:48:57.782] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui] 
+[02:48:58] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[02:49:00] [main/FATAL] [ne.ne.fm.ModLoader/CORE]: Error during pre-loading phase: Mod continuity requires connector any
+Currently, connector is not installed
+
+[02:49:01] [main/ERROR] [minecraft/CrashReport]: Negative index in crash report handler (0/18)
+[02:49:01] [main/FATAL] [ne.ne.ne.se.lo.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2026-11-01_02.49.01-fml.txt
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 2026-11-01 02:49:01
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: continuity --
+Details:
+	Mod file: /home/kitty/Minecraft/BMC5-Server/mods/continuity-3.0.0+1.21.neoforge.jar
+	Failure message: Mod continuity requires connector any
+		Currently, connector is not installed
+		
+	Mod version: 3.0.0+1.21.neoforge
+	Mod issues URL: https://github.com/PepperCode1/Continuity/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.18.60-1-lts
+	Java Version: 21.0.13, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 3726726976 bytes (3554 MiB) / 4294967296 bytes (4096 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12450H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 12
+	Graphics card #0 name: Alder Lake-P GT1 [UHD Graphics]
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x46a3
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 11935.24
+	Virtual memory used (MiB): 6084.76
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 0.02
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 7826.77, total: 7839.24
+	Space in storage for workdir (MiB): available: 460690.78, total: 487344.00
+	JVM Flags: 2 total; -Xms4G -Xmx8G
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar crash_assistant TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.8.0
+		__fabric_loader_bootstrap@2.5.29+0.16.0+1.21
+		Configured Defaults@21.1.3
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.234-universal.jar                   |NeoForge                      |neoforge                      |21.1.234            |Manifest: NOSIGNATURE
+[02:49:01] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Mod continuity requires connector any
+	  Currently, connector is not installed
+	  
+
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:110) ~[loader-4.0.42.jar%2359!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:49) ~[neoforge-21.1.234-universal.jar%23389!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.234/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.234-universal.jar%23389!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:124) ~[server-1.21.1-20240808.144430-srg.jar%23388!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.42.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.42.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+                                                                                                             
+◄ 6s ◎ 
